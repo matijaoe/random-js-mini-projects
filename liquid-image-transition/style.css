@@ -1,0 +1,50 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: 'Playfair Display', serif;
+}
+
+::selection {
+    background: #000;
+    color: white;
+}
+
+.landing {
+	display: flex;
+    justify-content: space-around;
+    align-items: center;
+	height: 100vh;
+}
+
+.distortion {
+	width: 64rem;
+    height: 95rem;
+    align-self: flex-end;
+}
+
+.intro {
+    max-width: 65rem;
+}
+
+.intro h2 {
+    font-size: 5rem;
+    line-height: 1;
+    margin-bottom: 1.6rem;
+}
+
+.intro p {
+    font-size: 2.4rem;
+}
+
+canvas {
+    display: block;
+}
